@@ -26,9 +26,5 @@ public class EmployeePayrollController {
         return "Emp data updated successfully";
     }
 
-    //Delete
-    @DeleteMapping("/deleteEmpData")
-    public String deleteEmployeeData(){
-        return "Emp data deleted successfully";
-    }
+
 }
